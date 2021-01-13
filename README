@@ -1,6 +1,6 @@
 openfortivpn
 ============
-A python script for running openfortivpn
+A python script for run openfortivpn in background
 
 # Usage
 1. cp openfortivpn_runner.py /usr/local/bin/
