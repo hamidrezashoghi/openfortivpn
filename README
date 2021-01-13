@@ -1,3 +1,12 @@
 openfortivpn
 ============
 A python script for running openfortivpn
+
+# Usage
+```
+1. cp openfortivpn_runner.py /usr/local/bin/
+2. chmod +x /usr/local/bin/openfortivpn_runner.py
+3. put your config file in /etc/openfortivpn/
+4. edit your crontab:
+* * * * *	root	/usr/bin/env python3 /usr/local/bin/openfortivpn_runner.py
+```
